@@ -174,7 +174,7 @@ def main():
     plt.bar(x, uninformed_data, color='gold')
     plt.bar(x, self_optimized_data, bottom=uninformed_data, color='lightskyblue')
     plt.bar(x, user_optimized_data, bottom=uninformed_data+self_optimized_data, color='tomato')
-    plt.title('Query 1 (runtime in ms)')
+    plt.title('Query 3 (runtime in ms)')
     plt.legend(["uninformed", "self optimized", "user optimized"])
     plt.show()
     plt.savefig('image.png')
